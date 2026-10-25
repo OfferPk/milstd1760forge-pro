@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" width="1200" height="780" style="background:#0b1120; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;">
+  <rect width="1200" height="780" fill="#0b1120"/>
+  <rect x="0" y="0" width="1200" height="64" fill="#0f172a"/>
+  <circle cx="36" cy="32" r="14" fill="#38bdf8"/>
+  <text x="36" y="37" fill="#0b1120" font-size="10" font-weight="900" text-anchor="middle">1760</text>
+  <text x="64" y="38" fill="#f8fafc" font-size="20" font-weight="800">MILSTD1760Forge <tspan fill="#38bdf8">Pro</tspan></text>
+  <rect x="290" y="22" width="70" height="20" rx="4" fill="#1e293b"/>
+  <text x="325" y="36" fill="#94a3b8" font-size="11" font-weight="600" text-anchor="middle">v1.0.0</text>
+  <rect x="850" y="20" width="310" height="26" rx="13" fill="#064e3b" stroke="#059669" stroke-width="1"/>
+  <text x="1005" y="38" fill="#ecfdf5" font-size="12" font-weight="700" text-anchor="middle">MIL-STD-1760E AEIS BUS CERTIFIED</text>
+  <g transform="translate(40, 90)">
+    <rect width="360" height="640" rx="12" fill="#0f172a" stroke="#1e293b"/>
+    <text x="24" y="36" fill="#e2e8f0" font-size="16" font-weight="700">Weapons Station Management (SMS)</text>
+    <rect x="20" y="70" width="320" height="50" rx="6" fill="#1e293b"/>
+    <text x="36" y="100" fill="#38bdf8" font-size="13" font-family="monospace">Pylon #3 | RT: 5 | GBU-38 JDAM</text>
+    <rect x="20" y="140" width="320" height="90" rx="6" fill="#1e293b"/>
+    <text x="36" y="165" fill="#f1f5f9" font-size="12">Operation: SA 11 Transfer Header</text>
+    <text x="36" y="188" fill="#34d399" font-size="12">Release Consent: ARMED (Hardware True)</text>
+    <text x="36" y="211" fill="#64748b" font-size="12">Fuzing: 0xAA55 | Safe Sep: 1.2s</text>
+    <rect x="20" y="250" width="150" height="40" rx="6" fill="#0284c7"/>
+    <text x="95" y="275" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle">Transmit SA</text>
+    <rect x="190" y="250" width="150" height="40" rx="6" fill="#b91c1c"/>
+    <text x="265" y="275" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle">Arm Weapon</text>
+  </g>
+  <g transform="translate(430, 90)">
+    <rect width="230" height="110" rx="12" fill="#0f172a" stroke="#1e293b"/>
+    <text x="20" y="32" fill="#94a3b8" font-size="12" font-weight="600">STORE STATUS</text>
+    <text x="20" y="70" fill="#38bdf8" font-size="22" font-weight="800">READY RELEASE</text>
+    <rect x="250" y="0" width="230" height="110" rx="12" fill="#0f172a" stroke="#1e293b"/>
+    <text x="270" y="32" fill="#94a3b8" font-size="12" font-weight="600">CHECKSUM (MOD 2^16)</text>
+    <text x="270" y="70" fill="#34d399" font-size="28" font-weight="800">0xAA4B</text>
+    <rect x="495" y="0" width="235" height="110" rx="12" fill="#0f172a" stroke="#1e293b"/>
+    <text x="515" y="32" fill="#94a3b8" font-size="12" font-weight="600">SAFETY INTERLOCK</text>
+    <text x="515" y="70" fill="#facc15" font-size="28" font-weight="800">DUAL-LOCKED</text>
+    <g transform="translate(0, 130)">
+      <rect width="730" height="510" rx="12" fill="#0f172a" stroke="#1e293b"/>
+      <text x="24" y="36" fill="#e2e8f0" font-size="16" font-weight="700">10-Point Normative MIL-STD-1760E Compliance Scorecard</text>
+      <text x="600" y="36" fill="#34d399" font-size="13" font-weight="700">10/10 PASS (100%)</text>
+      <line x1="24" y1="54" x2="706" y2="54" stroke="#1e293b"/>
+      <text x="36" y="86" fill="#f1f5f9" font-size="13">&#x2713; Section 5.1.1: Subaddress 11 (Transfer Header) Target Handoff &amp; Control Mapping</text>
+      <text x="36" y="126" fill="#f1f5f9" font-size="13">&#x2713; Section 5.1.2: Subaddress 19 (Critical Control &amp; Fuzing) Interlock Conformance</text>
+      <text x="36" y="166" fill="#f1f5f9" font-size="13">&#x2713; Section 5.1.3: Subaddress 27 (Base Inventory) Country Code &amp; Store Description</text>
+      <text x="36" y="206" fill="#f1f5f9" font-size="13">&#x2713; Section 5.2.1: Two's Complement Sum-to-Zero Modulo-65536 Checksum Integrity</text>
+      <text x="36" y="246" fill="#f1f5f9" font-size="13">&#x2713; Section 4.3.2: Release Consent Discrete Hardware + Logical Dual Interlock</text>
+      <text x="36" y="286" fill="#f1f5f9" font-size="13">&#x2713; Appendix A: Arming Security Guard Word Pattern Conformance (0xAA55)</text>
+      <text x="36" y="326" fill="#f1f5f9" font-size="13">&#x2713; Section 4.2: 28V DC &amp; 115V AC 400Hz 3-Phase Power Sequencing Protection</text>
+      <text x="36" y="366" fill="#f1f5f9" font-size="13">&#x2713; Section 4.4: High Bandwidth (HB1–HB4) Coaxial &amp; Fiber-Optic Video/RF Routing</text>
+      <text x="406" y="406" fill="#f1f5f9" font-size="13">&#x2713; DO-178C / DO-254: DAL-A Weapons Safety-Critical Software Fault Isolation</text>
+      <text x="36" y="446" fill="#f1f5f9" font-size="13">&#x2713; Avionics Ecosystem: Tactical Aircraft Station Interface (F-16/F-35/F/A-18 ASI) Interop</text>
+    </g>
+  </g>
+</svg>
